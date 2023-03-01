@@ -20,7 +20,8 @@ LOGIN
 
 ADMIN
 
--allows the admin to upload/delete/edit content/posts
+(post)
+-allows the admin to add/delete/edit/draft/schedule a content/posts
 -enables the administrator to share the content on additional social media platforms. 
 - records all the uploaded content
 
