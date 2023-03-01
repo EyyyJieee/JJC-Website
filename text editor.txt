@@ -1,0 +1,99 @@
+<section class="section">
+      <div class="row">
+        <div class="col-lg-6">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Quill Editor Default</h5>
+
+              <!-- Quill Editor Default -->
+              <div class="quill-editor-default">
+                <p>Hello World!</p>
+                <p>This is Quill <strong>default</strong> editor</p>
+              </div>
+              <!-- End Quill Editor Default -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <div class="card">
+            <div class="card-body">
+              <h5 class="card-title mb-4">Pledge Details</h5>
+ 
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="cash" class="form-label">Cash</label>
+                      <label for="cash" class="form-label">Amount</label>
+                      <input type="text" class="form-control" placeholder="Amount (Peso)" id="cash">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Goods</label>
+                        <select id="religion" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>Clothes</option>
+                          <option>Groceries</option>
+                          <option>School Supply</option>
+                          <option>Home Appliances</option>
+                          <option>Others</option>
+                          <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="payment-method" class="form-label">Payment Method</label>
+                        <select id="payment-method" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>Personal</option>
+                          <option>Gcash</option>
+                          <option>Paymaya</option>
+                          <option>Paypal</option>
+                          <option>Mlhuiller</option>
+                          <option>Palawan</option>
+                          <option>BPI</option>
+                          <option>Metrocard</option>
+                          <option>Landbank</option>
+                          <option>Others</option>
+                          <option>...</option>
+                        </select>
+                  </div>
+                    <label class="form-label">Social Media (optional)</label>
+                    <div class="col-md-3">
+                        <label for="fb-name" class="form-label">Facebook Name</label>
+                        <input type="text" class="form-control" placeholder="Facebook Name" id="fb-name">
+                    </div>
+                    <div class="col-md-3">
+                      <label for="twitter-name" class="form-label">Twitter Name</label>
+                      <input type="text" class="form-control" placeholder="Twitter Name" id="twitter-name">
+                    </div>
+                    <div class="col-md-3">
+                      <label for="instagram-name" class="form-label">Instagram Name</label>
+                      <input type="text" class="form-control" placeholder="Instagram Name" id="instagram-name">
+                    </div>
+                    <div class="col-md-3">
+                      <label for="linkedin-name" class="form-label">Linkedin Name</label>
+                      <input type="text" class="form-control" placeholder="Linked Name" id="linkedin-name">
+                    </div>
+                    
+                    <div class="form-buttons mt-4">
+                      <button type="back" class="btn btn-secondary"><a href="pledge-form1.html">Back</a></button>
+                      <button type="submit" class="btn btn-primary"><a href="pledge-form2.html">Submit</a></button>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                          <h4 class="alert-heading">Success</h4>
+                          <p>Thank you for joining JJC Zamboanga.</p>
+                          <hr>
+                          <p class="mb-0">Please wait for your email response.</p>
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                      </div>
+                  </div>
+                </form><!-- End No Labels Form -->
+        
+                </div>
+          </div>
